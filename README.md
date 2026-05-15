@@ -21,4 +21,4 @@ Formatos omitidos según requerimiento:
 - Cotización mantenimiento.
 - Cotización evento.
 
-El módulo extiende `sale.order` y `sale.order.line` con campos para datos del machote, contacto, observaciones, mantenimiento, anticipo, valor residual, plazos e intereses. Los importes de financiamiento, renta y MSI se calculan automáticamente desde el total de la cotización y los parámetros capturados.
+El módulo extiende `sale.order` y `sale.order.line` con campos para datos del machote, contacto, observaciones, mantenimiento, flete, anticipo, valor residual, plazos e intereses. Los importes de financiamiento, renta y MSI se calculan automáticamente desde el total de la cotización y los parámetros capturados; para `BICIS: CONTADO+FINAN.` se pueden configurar los meses de financiamiento y el porcentaje de anticipo que se imprimen por producto.
